@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="32px" viewBox="0 0 29 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icons/graph-up</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.8,21.0603478 L5.8,31.6958261 L1.45,31.6958261 L1.45,21.0603478 L5.8,21.0603478 Z M13.05,17.5031304 L13.05,31.6958261 L8.7,31.6958261 L8.7,17.5031304 L13.05,17.5031304 Z M20.3,13.9462609 L20.3,31.6958261 L15.95,31.6958261 L15.95,13.9462609 L20.3,13.9462609 Z M27.55,10.3890435 L27.55,31.6958261 L23.2,31.6958261 L23.2,10.3890435 L27.55,10.3890435 Z M29,-0.000139130435 L25.7011605,6.69133913 L24.287679,4.64890435 L15.442679,10.6005565 L9.78732099,8.38177391 L1.41348148,13.8054261 L0,11.727513 L9.49732099,5.59951304 L15.1165185,7.78316522 L22.837679,2.60612174 L21.4238395,0.563686957 L29,-0.000139130435 Z" id="path-1"></path>
+    </defs>
+    <g id="TapGoods-2.0" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="600_AboutUs" transform="translate(-383.000000, -1117.000000)">
+            <g id="icons/graph-up" transform="translate(383.000000, 1117.000000)">
+                <g id="Color/Blue">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#278ADA" xlink:href="#path-1"></use>
+                    <g mask="url(#mask-2)" fill="#278ADA" id="Rectangle-11">
+                        <rect x="0" y="0" width="29" height="32"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
