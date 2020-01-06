@@ -1,0 +1,145 @@
+/* General */
+:root {
+  --main-color: #0d2b46;
+  --secondary-color: #3c8bcf;
+  --third-color: #278ada;
+  --forth-color: #081b2a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background: var(--secondary-color);
+  display: block;
+  margin: 1rem 0;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 5rem;
+  border: var(--third-color) 0.1rem solid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.btn-primary {
+  background: var(--third-color);
+  color: #fff;
+}
+
+.btn-light {
+  background: #fff;
+}
+
+/* Section a */
+#landing-a {
+  text-align: center;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+  background-color: var(--main-color);
+  min-height: 85vh;
+}
+
+#landing-a nav img {
+  width: 95%;
+}
+
+#landing-a #tapgoods-all {
+  width: 60%;
+  margin-top: 10vh;
+}
+
+/* Section b */
+#landing-b {
+  background: var(--main-color);
+}
+
+#landing-b main {
+  display: flex;
+}
+
+#landing-b main div:nth-child(2) {
+  margin: 0 3rem;
+}
+
+#landing-b main h2 {
+  color: #fff;
+}
+
+#landing-b main small {
+  color: #7aa9d3;
+}
+
+/* section C */
+#landing-c {
+  background: linear-gradient(to bottom, var(--main-color) 35%, #fff 35%);
+}
+
+#landing-c h3 {
+  padding-top: 13%;
+  font-size: 1.4rem;
+  color: var(--secondary-color);
+  text-align: center;
+}
+
+#landing-c .benefit {
+  background: var(--third-color);
+  margin: 2rem 10rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 5px;
+}
+
+#landing-c .benefit span {
+  border-radius: 50%;
+  background: #fff;
+  line-height: 100px;
+  padding: 1.5rem;
+  margin-right: 1rem;
+}
+
+#landing-c .benefit span img {
+  vertical-align: middle;
+}
+
+#landing-c .buttons {
+  text-align: center;
+  margin-bottom: 10rem;
+}
+
+/* section D */
+
+#landing-d {
+  background: var(--forth-color);
+  min-height: 50vh;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+
+#landing-d div {
+  width: 33%;
+  text-align: center;
+}
+
+#landing-d .buttons button {
+  display: block;
+  margin-bottom: 0.5rem;
+  width: 20rem;
+  border: none;
+}
